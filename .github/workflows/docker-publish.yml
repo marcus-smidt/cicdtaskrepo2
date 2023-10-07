@@ -22,7 +22,7 @@ env:
 
 jobs:
   integration:
-     uses: mmarcus-smidt/cicdtaskrepo1/.github/workflows/python-app.yml@main
+     uses: marcus-smidt/cicdtaskrepo1/.github/workflows/python-app.yml@main
      permissions:
       contents: read
   build:
